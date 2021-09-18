@@ -1,0 +1,29 @@
+#main {
+  background-color: #ffffff;
+  font-family: "Roboto";
+}
+
+#title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#sub-title {
+  font-size: 1.5rem;
+}
+
+#graph {
+  margin-bottom: 2rem;
+}
+
+#tooltip {
+  display: flex;
+  background: lightsteelblue;
+  position: absolute;
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0;
+  font-family: 'Roboto';
+  font-size: 0.8rem;
+
+}

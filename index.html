@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <title>D3 Heat Map</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div id="main" class="flex justify-center w-full h-full absolute items-center">
+    <div id="container" class="flex flex-col items-center">
+      <div id="title">
+        Monthly Global Land-Surface Temperature
+      </div>
+      <div id="sub-title">
+        1753 - 2015: base temperature 8.66&#8451;
+      </div>
+      <svg id="graph"></svg>
+    </div>
+
+    <div id="tooltip"></div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
